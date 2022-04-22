@@ -8,12 +8,12 @@ flags += -g
 
 #
 text-server: text-server.cc
-	g++ -g -o text-server text-server.cc -lrt
+	g++ -g -o text-server text-server.cc -lrt -lpthread
 
 
 #
 text-client: text-client.cc
-	g++ -g -o text-client text-client.cc -lrt
+	g++ -g -o text-client text-client.cc -lrt -lpthread
 
 
 #
